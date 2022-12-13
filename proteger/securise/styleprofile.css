@@ -1,0 +1,247 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+#container_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.contain_profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+}
+.premiere_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 60px;
+}
+
+/*----- GRID -----*/
+
+.parametre_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    }
+    
+    .pdp_profil { grid-area: 1 / 1 / 2 / 2; }
+    .info_user { grid-area: 1 / 2 / 2 / 3; }
+    .btn_pdp { grid-area: 2 / 1 / 3 / 3; } 
+
+.pdp_profil{
+    width: 50%;
+}
+.info_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.un_info{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin: 0;
+}
+.deux_info{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin-left: 12px;
+}
+.trois_info{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+}
+
+
+
+.pics_zone_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+}
+.name_profile_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.name_profile_div p{
+    font-size: 20px;
+    background-color: rgb(18, 60, 124);
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.img_session{
+    display: flex;
+    border-radius: 100px;
+    border: 1px grey solid;
+    transition: 0.5s;
+}
+.img_session:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.btn_pdp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px;
+    display: none;
+}
+.description_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 145px;
+    overflow: auto;
+    color: black;
+    border-top: 1px rgb(18, 60, 124) solid;
+}
+.btn_text_div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px rgba(0, 0, 0, 0.11) solid;
+    border-radius: 5px;
+}
+.text_div{
+    display: flex;
+}
+.btn_text_div:hover{
+    background-color: rgb(203, 203, 207);
+}
+
+.description_div input{
+    width: 100%;
+    height: 100%;
+    border: 1px rgba(0, 0, 0, 0.11) solid;
+    border-radius: 1px;
+    color: black;
+}
+.profile_zone{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.deuxieme_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    min-width: 1170px;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+.d_div{
+    background-color: rgb(18, 60, 124);
+}
+.hobbies_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.hobbies_div h3{
+    width: 12%;
+    color: white;
+    padding: 0;
+    margin: 10px 0 0 0;
+    background-color: rgb(18, 60, 124);
+    padding-left: 5px;
+}
+/*------------ZONE ARTICLE------------*/
+.article_div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+.art_f_div{
+    margin: 0;
+    padding: 0;
+}
+.art_f_div h1{
+    margin: 0;
+}
+.divers_profile_zone{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 100%;
+}
+.galerie{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.hobbie_case{
+    height: 400px;
+    overflow: scroll;
+    border-bottom: 1px rgb(18, 60, 124) solid;
+    border-top: 1px rgb(18, 60, 124) solid;
+}
+.article{
+    color: black;
+}
+
+.share_img_div{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    min-width: 1170px;
+    max-width: 1000px;
+}
+.share_img_div h1{
+    display: flex;
+    width: 10%;
+    height: auto;
+    background-color: rgb(18, 60, 124);
+    color: white;
+    margin: 80px 0 0 0;
+    padding-left: 5px;
+}
+.galerie_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px rgb(18, 60, 124) solid;
+}

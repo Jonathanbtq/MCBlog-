@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body, html{
+    font-family: 'Quicksand', sans-serif, Verdana, Geneva ;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+}
+#container_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(39, 129, 202);
+    border-bottom: 2px white solid;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+}
+.nav_width{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.nav_width header{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.nav_width h1{
+    margin: 0;
+}
+.nav_btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(18, 60, 124);
+    width: 99%;
+    padding-left: 30px;
+}
+.btn_nav{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(18, 60, 124);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn_nav:hover{
+    transform: scale(0.9);
+    color: rgb(102, 208, 240);
+    border: none;
+}
+.acceuil img{
+    content: url(images/manette.png);
+    height: 50px;
+    width: 50px;
+}
+.connect img{
+    content: url(images/githubnav.png);
+    height: 50px;
+    width: 50px;
+}
+.profil img{
+    content: url(images/calculette.png);
+    height: 50px;
+    width: 50px;
+}
+.nav_connect{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    margin: 0 10px 0 0;
+}
+.info_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+}
+.prenom_info{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    height: 50%;
+}
+.btn_connection{
+    display: flex;
+}
+#btn_connec{
+    border-radius: 10px;
+    border: none;
+}
+.nav_connect img{
+    content: url(images/githubnav.png);
+    height: 50px;
+    width: 50px;
+}
+.img_header{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+}
+.img_header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 0;
+}
+.connect_nav{
+    display: flex;
+    border-radius: 100px;
+}
+.derou_container_header{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+}
+.derou_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+}
+.derou_div_header{
+    display: none;
+}
+.derou_header > .derou_div_header_flex{
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 22rem;
+    height: 12rem;
+    background-color: rgb(128, 128, 128);
+    border: 2px rgba(255, 255, 255, 0.185) solid;
+    top: 75%;
+    right: -300%;
+    border-radius: 5px;
+    z-index: 99999999;
+}
+.derou_header > .derou_div_header_flex li{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn_derou_header:hover{
+    color: rgb(32, 204, 195);
+}
+
+/*-------------Profile_Zone----------*/
+
+
+/*-------------HEADER----------------*/
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    min-width: 1200px;
+}
+
+/*-------------ZONE_DE_LOGIN-------------*/
+
+.ifm_cmpt{
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.creation_compte{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------FOOTER-------------*/
+
+#container_main_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+.container_index_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(18, 60, 124);
+}

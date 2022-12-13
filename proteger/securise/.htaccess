@@ -1,0 +1,3 @@
+AuthName "Ceci est du contenue securise"
+AuthType Basic
+AuthUserFile "C:\MAMP\htdocs\php2\proteger\securise\.htpasswd"
